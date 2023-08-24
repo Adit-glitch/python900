@@ -1,8 +1,23 @@
-git init
-git status
-git add .
+git init # initialize folder to repos
+git status # get status of file
+git add . # add the 
+
 git commit -m "python900 code"
 
 
 git config --global user.name 'Adit-glitch'
 git config --global user.email 'adeet04@gmail.com'
+
+
+
+git branch -M main
+
+git remote add origin https://github.com/Adit-glitch/python900.git
+git push -u origin main
+
+open vscode "code ."
+
+
+# create new branch
+git branch bugfix
+git checkout bugfix
