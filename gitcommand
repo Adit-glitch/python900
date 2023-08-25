@@ -6,3 +6,8 @@ git commit -m "python900 code"
 
 git config --global user.name 'Adit-glitch'
 git config --global user.email 'adeet04@gmail.com'
+
+
+git remote add origin https://github.com/Adit-glitch/webScraping.git
+git branch -M main
+git push -u origin main
